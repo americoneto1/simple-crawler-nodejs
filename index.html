@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8" />		
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />		
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+		<title>Devocional de Hoje</title>		
+	</head>
+	<body>
+		<header class="app-header">
+			<div class="app-header-main">
+				<h1>iluminalma</h1>
+				<a href="#"><i class="icon-tasks"></i></a>			
+			</div>
+			<h2><i class='icon-book'></i> Devocional de Hoje</h2>
+		</header>
+		<div class="app-body">
+			<article class="app-mensagem">
+				<header>
+					<h1 data-bind="data-titulo"></h1>
+					<h2 data-bind="data-versiculo"></h2>
+				</header>
+				<p><time datetime="" pubdate="pubdate"></time></p>
+				<p><strong>Pensamento: </strong><span data-bind="data-pensamento"></span></p>
+				<p><strong>Oração: </strong><span data-bind="data-oracao"></span></p>
+			</article>
+		</div>
+		<footer>
+			<section class="app-share">
+				<ul>					
+					<li><a href="#facebook"><i class='icon-facebook-sign'></i> <span>Facebook</span></a></li>
+					<li><a href="#twitter"><i class='icon-twitter'></i> <span>Twitter</span></a></li>
+					<li><a href="#linkedin"><i class='icon-linkedin-sign'></i> <span>Linkedin</span></a></li>
+				</ul>
+			</section>
+			<nav class="app-navigation">
+				<ul>
+					<li><a href="#prev"><i class="icon-backward"></i></a></li>
+					<li><a href="#next"><i class="icon-forward"></i></a></li>
+				</ul>
+			</nav>
+			<small>Phil Ware é o autor do devocional diário "Devocional Para Hoje", Copyright © 2006-2011, Phil Ware. Todos os direitos reservados. As citações bíblicas são da Nova Versão Internacional (NVI), da Sociedade Bíblica Internacional (www.sbibrasil.org.br), salvo indicação em contrário.</small>
+		</footer>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
